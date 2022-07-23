@@ -1,8 +1,5 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import pickle as pk
-from PIL import Image
+
 def main():
   st.title("Even or Odd")
   html_temp = """
