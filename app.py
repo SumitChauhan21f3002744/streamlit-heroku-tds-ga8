@@ -9,7 +9,7 @@ def main():
   """
   st.markdown(html_temp,unsafe_allow_html=True)
   number = st.number_input("Enter a positive number",min_value=0,max_value=1000000000000,step=1)
-  result = None
+  result = "Waiting for the number..."
   if st.button("Check"):
     result = "Even" if number%2 == 0 else "Odd"
   st.success(f"The given number is {result}")
